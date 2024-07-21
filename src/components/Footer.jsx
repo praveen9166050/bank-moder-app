@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
           {footerLinks.map(footerLink => (
-            <div key={footerLink.key} className='flex flex-col ss:my-0 my-4 min-w-[140px]'>
+            <div key={footerLink.title} className='flex flex-col ss:my-0 my-4 min-w-[140px]'>
               <h4 className='font-poppins font-medium text-[18px] leading-[27px] text-white'>
                 {footerLink.title}
               </h4>
